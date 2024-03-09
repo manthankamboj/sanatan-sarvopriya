@@ -21,4 +21,4 @@ git show <SHA>
 
 -- After Successful commit --
 git pull --rebase origin master
-git push origin mater
+git push origin master
