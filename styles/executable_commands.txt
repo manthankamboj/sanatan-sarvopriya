@@ -19,6 +19,10 @@ git status
 git show <SHA>
 ---------------------------------------------------------------------------------
 
+-- Attaching git repository --
+git remote add origin <git SSH url>
+---------------------------------------------------------------------------------
+
 -- After Successful commit --
 git pull --rebase origin master
 git push origin master
