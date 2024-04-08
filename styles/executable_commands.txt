@@ -1,0 +1,28 @@
+cd <folderpath>
+mkdir <foldername>
+code .                       //to open the vs code if the above commands are written in command prompt
+---------------------------------------------------------------------------------
+
+git add <filename>          //to add the file into git tracking
+git commit -m <message>     //to add the message while committing
+git log                     //to know the change in history
+git log --oneline           // to know the change in one line
+---------------------------------------------------------------------------------
+
+git rm <filename>           //to remove the file
+git reset --hard <SHA>      //to reset the removed/changed file
+git revert <SHA>            //to revert the change in file
+---------------------------------------------------------------------------------
+
+git blame <filepath>
+git status
+git show <SHA>
+---------------------------------------------------------------------------------
+
+-- Attaching git repository --
+git remote add origin <git SSH url>
+---------------------------------------------------------------------------------
+
+-- After Successful commit --
+git pull --rebase origin master
+git push origin master
